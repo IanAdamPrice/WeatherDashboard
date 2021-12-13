@@ -83,7 +83,7 @@ function getFiveDayForecast() {
 		for (let i = 0; i < weather.length; i++) {
             var m = moment(`${weather[i].date}`).format("MM-DD-YYYY");
 			var divElCard = $("<div>")
-			    .addClass("card text-white bg-primary mb-3 cardOne d-inline-block text-nowrap");
+			    .addClass("card text-white bg-primary mb-3 cardOne d-inline-block");
 		
 			var headerEl = $("<div>")
 			    .addClass("card-header")
