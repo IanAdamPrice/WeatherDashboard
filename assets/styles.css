@@ -1,0 +1,40 @@
+header{
+    background-image: linear-gradient(to right, blue, purple);
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+label {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.btn {
+    margin-top: 5px;
+}
+
+.searchBtn {
+    border-bottom: 3px solid black;
+}
+
+.historyBtn:hover {
+    opacity: .5;
+}
+
+.card {
+	margin: 5px;
+    height: 300px;
+    
+    background-image: linear-gradient(blue, purple);
+    
+}
+
+
+.icons {
+	height: 60px;
+	width: 60px;
+}
+.cardTodayDate {
+	font-size: 20px;
+}

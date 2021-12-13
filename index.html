@@ -13,40 +13,41 @@
 </head>
 
 <body>
-    <header>
+    <header class="w-100">
         <h1>Weather Dashboard</h1>
     </header>
     
-    <section class="container-fluid mainCon row">
-        <div class="row">
-            <div class=" col-sm-4 col-2">
+    <section class="row justify-content-center">
+        <div class="row  mt-2 ">
+            <div class="bg-secondary col-2 rounded">
                 <h4 class="pt-1">Search for a City:</h4>
 
                 <div class="mb-3">
                     <input type="text" class="form-control textVal" placeholder="charlotte">
-                    <div class="btnPar">
-                        <button class="btn search w-100 bg-primary" type="button" id="button-addon2">Search</button>
+                    <div class="searchBtn mt-2 pb-3">
+                        <button class="btn search w-100 bg-primary" type="button" id="search">Search</button>
+                        <button class="btn clear w-100 bg-primary" type="button">Clear</button>
                     </div>
                 </div>
 
-                <div class="container cityHist">
+                <div class="container cityHistory">
 
                 </div>
             </div>
-            <div class=" col-sm-8">
+            <div class=" col">
 
-                <div class=" today">
+                <div class=" today text-white">
 
-                    <div class="card bg-light mb-3 " style="">
+                    <div class="card mb-3 ">
                         <h2 class="card-header cardTodayCityName"></h2>
                         <img class="icons"/>
-                        <ul class="card-body cardBodyToday"></ul>
+                        <ul class="card-body"></ul>
                     </div>
 
                 </div>
-                <div class="col-sm-12" id="5day">
+                <div class="col" id="5day">
                     <h3>5-Day Forecast:</h3>
-                    <div class=" fiveForecast d-flex">
+                    <div class=" fiveDay d-flex">
                     
                     </div>
                 </div>
